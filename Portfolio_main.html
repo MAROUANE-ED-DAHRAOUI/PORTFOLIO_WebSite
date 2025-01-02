@@ -3,26 +3,53 @@
 <head> 
     <title>Marouane Ed-Dahraoui | Full-stack Developer </title>
     <style>
+        body{
+                margin: 0;
+        }
         .cls{
-            background-color: rgb(255, 255, 255);
-            border: 20px rgb(255, 255, 255);
-            padding: 10px 25px 20px 17px;
-            margin: 10px 25px 25px 120px;
+            background-color: rgb(227, 207, 177);
+            padding: 40px 50px 0px 100px;
+            margin: 0;
+            display: flex;
+        }
+        .nav-link{
+            margin-right: 35px;
+            list-style: none;
+            padding: 0;
+            text-decoration: none;
+            display: flex;
+            gap: 40px;
+        }
+        .head{
+            background-color: rgb(227, 207, 177);
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo{
+            width: 200px;
+            height: auto;
+        }
+        .nav-container {
+            margin-left: auto; /* Align the navigation container to the right */
         }
         </style>
 </head>
 
 <body>
     <div class="cls">
-        <img src="/home/marouane/PORTFOLIO_WebSite/Images/images.png";
-        width="100"/>
-        <nav role="navigation">
-           <ul>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-           </ul>
-         </nav>
+        <img src="/home/marouane/PORTFOLIO_WebSite/Images/1.png";
+        width="100"
+        class="logo"/>
+        <div class="head">
+            <nav class="nav-container" role="navigation">
+                <ul class="nav-link">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <button>login</button>
+                </ul>
+            </nav>
+        </div>
     </div>
 </body>
 
