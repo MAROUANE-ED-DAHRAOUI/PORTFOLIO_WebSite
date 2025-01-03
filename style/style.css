@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.cls{
+background-color: rgb(227, 207, 177);
+padding: 40px 50px 0px 100px;
+margin: 0;
+display: flex;
+background-color: rgb(227, 207, 177);
+}
+.nav-link{
+margin-right: 35px;
+list-style: none;
+padding: 0;
+text-decoration: none;
+display: flex;
+gap: 40px;
+}
+.head{
+background-color: rgb(227, 207, 177);
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo{
+width: 55px;
+height: auto;
+}
+.nav-container {
+margin-left: auto; /* Align the navigation container to the right */
+}
